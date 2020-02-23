@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body>
+    <h1 style="color:seagreen;">Phiều đăng ký tham gia chương trình khuyến mãi</h1>
+    <form action="">
+        <table bgcolor="springgreen" border="1" bordercolor="black" cellspacing="0" style="color: seagreen;">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td><input type="radio" name="gender" value="Nam" checked>Nam
+                    <input type="radio" name="gender" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td> Nghề nghiệp</td>
+                <td> <select name="Nghề nghiệp" id="">
+                    <option value="Bác sĩ" selected>Bác sĩ</option>
+                    <option value="Kỹ sư">Kỹ sư</option>
+                    <option value="Giáo viên">Giáo viên</option>
+                    <option value="khác">Khác</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>
+                    <select name="Sản phẩm tham gia" id="" size="4">
+                        <option value="Kem đánh răng">Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội đầu">Dầu gội đầu</option>
+                        <option value="Sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td><input type="number" value="250000"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="Đồng ý"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
