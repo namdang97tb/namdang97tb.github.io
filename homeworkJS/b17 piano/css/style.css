@@ -1,0 +1,72 @@
+body {
+    background-color: cornflowerblue;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    margin: 50px;
+}
+
+#piano {
+    background-color: cornflowerblue;
+    width: 900px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.top {
+    position: absolute;
+    left: 58px;
+}
+
+#key-T {
+    margin-left: 84px;
+}
+
+#key-O {
+    margin-left: 84px;
+}
+
+.key-top {
+    display: inline-block;
+    width: 50px;
+    height: 240px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 30px;
+    border-radius: .3rem;
+}
+
+.key-bt {
+    display: inline-block;
+    width: 80px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: .2rem;
+}
+
+.playing {
+    /* transform: scale(.95); */
+    border-color: #1b1d1f;
+    box-shadow: 0 0 1rem #1c1e20;
+    color: red;
+    font-weight: bold;
+}
+
+#history {
+    text-align: center;
+    width: 40%;
+    height: 50px;
+    margin-left: 28%;
+    font-size: 40px;
+    text-transform: uppercase;
+}

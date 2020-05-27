@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: rgb(85, 83, 78);
+    padding: 5px 15px;
+    color: white;
+    text-align: right;
+}
+
+header a {
+    color: white;
+}
+
+nav {
+    background-image: linear-gradient(45deg, rgba(23, 24, 26, 0.8) 55%, rgba(69, 74, 78, 0.8)), url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    /* background-color: rgba(10, 10, 10, 0.7); */
+    height: 90px;
+    text-align: right;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    transition: border-bottom 0.5s;
+    padding-bottom: 5px;
+}
+
+li:hover {
+    border-bottom: 5px solid white;
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+}
+
+.mySlide {
+    width: 99vw;
+    height: 60vh;
+}
+
+.btn {
+    display: inline-block;
+    color: rgb(202, 196, 196);
+    background-color: rgba(88, 83, 83, 0.5);
+    font-size: 30px;
+    /* width: 30px;
+    height: 50px; */
+    /* padding-bottom: 20px; */
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgba(24, 22, 22, 0.8);
+    cursor: pointer;
+}
+
+.btn1 {
+    position: absolute;
+    top: 30vh
+}
+
+.btn2 {
+    position: absolute;
+    right: 0px;
+    top: 30vh
+}
+
+.row {
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.to-uppercase {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text-conter {
+    color: white;
+    display: inline-block;
+    width: 300px;
+    margin-top: 3px;
+}

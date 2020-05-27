@@ -1,0 +1,15 @@
+#calculator button {
+    width: 40px;
+    height: 40px;
+    list-style: none;
+}
+
+table {
+    border: 1px solid black
+}
+
+#result {
+    background-color: gray;
+    border: none;
+    color: whitesmoke;
+}

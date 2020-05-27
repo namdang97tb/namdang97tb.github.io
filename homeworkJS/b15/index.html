@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <!-- bài 15, máy tính cầm tay -->
+
+        <table>
+            <tr>
+                <th bgcolor="gray" colspan="4" style="height: 40px;">
+                    <input disabled id="result" type="text" value="">
+                </th>
+            </tr>
+            <tr>
+                <th><button onclick="plus()">+</button></th>
+                <th><button onclick="tru()">-</button></th>
+                <th><button onclick="nhan()">*</button></th>
+                <th><button onclick="chia()">/</button></th>
+            </tr>
+            <tr>
+                <th><button onclick="number7()">7</button></th>
+                <th><button onclick="number8()">8</button></th>
+                <th><button onclick="number9()">9</button></th>
+                <th><button onclick="AC()">AC</button></th>
+            </tr>
+            <tr>
+                <th><button onclick="number4()">4</button></th>
+                <th><button onclick="number5()">5</button></th>
+                <th><button onclick="number6()">6</button></th>
+                <th><button onclick="dell()">Dell</button></th>
+            </tr>
+            <tr>
+                <th><button onclick="number1()">1</button></th>
+                <th><button onclick="number2()">2</button></th>
+                <th><button onclick="number3()">3</button></th>
+                <th><button onclick="number0()">0</button></th>
+            </tr>
+            <tr>
+                <th colspan="3"><button style="width: 130px;" onclick="res()">=</button></th>
+                <th><button onclick="cham()">.</button></th>
+            </tr>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

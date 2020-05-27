@@ -1,0 +1,45 @@
+/*  */
+
+#header {
+    display: block;
+    background-color: rgb(252, 87, 87);
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#listEl ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: rgba(139, 135, 135, 0.315);
+    width: 280px;
+}
+
+#listEl ul li {
+    position: relative;
+    padding: 10px;
+}
+
+#listEl ul li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 10px
+}
+
+.close:hover {
+    background-color: rgb(252, 87, 87)
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}

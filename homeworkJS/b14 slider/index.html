@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">Trợ giúp</a>
+    </header>
+    <nav>
+        <img class="logo" src="./images/logo.jpg" alt="Logo">
+        <ul>
+            <li>Trang chủ</li>
+            <li>Kiến thức thủy sinh</li>
+            <li>Phụ kiện thủy sinh</li>
+            <li>Cá/tép</li>
+        </ul>
+
+        <div class="clearfix"></div>
+
+        <div class="slider">
+            <img class="mySlide" src="./images/fish4.jpg" alt="fish">
+            <img class="mySlide" src="./images/fish3.jpg" alt="fish">
+            <img class="mySlide" src="./images/fish2.png" alt="fish">
+            <img class="mySlide" src="./images/fish1.png" alt="fish">
+            <span class="btn btn1" onclick="preBtn()">&#60</span>
+            <span class="btn btn2" onclick="nextBtn()">&#62</span>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <div class="to-uppercase"> giao hàng tận nơi</div>
+                <div class="text-conter">Liên kết với các đơn vị vận chuyển lớn</div>
+            </div>
+            <div class="col-3">
+                <div class="to-uppercase"> thanh toán tiện lợi</div>
+                <div class="text-conter">Hỗ trợ thanh toán tiền mặt hoặc thẻ ngân hàng</div>
+            </div>
+            <div class="col-3">
+                <div class="to-uppercase"> chăm sóc khác hàng 24/7</div>
+                <div class="text-conter">Chăm sóc khách hàng 24/7. Giải đáp mọi thắc mắc</div>
+            </div>
+            <div class="col-3">
+                <div class="to-uppercase"> sản phầm chính hãng</div>
+                <div class="text-conter">Sản phẩm chình hãng đến từ các thương hiệu</div>
+            </div>
+        </div>
+    </nav>
+    <script src="./index.js"></script>
+</body>
+
+</html>
