@@ -9,15 +9,23 @@
 </head>
 
 <body>
-    <div>
+    <div class="game">
         <canvas id="snake" width="600px" height="400px" style="border: 1px solid black ;"></canvas>
     </div>
-    <div>
+    <div class="btn">
         <button onclick="start()">Resume</button>
         <button onclick="stop()">Pause</button>
         <button onclick="newGame()">New Game</button>
     </div>
     <div id="scores"></div>
+    <div class="move">
+        <span onclick="clickUp()">up</span>
+        <div>
+            <span onclick="clickLeft()">left</span>
+            <span onclick="clickDown()">down</span>
+            <span onclick="clickRight()">right</span>
+        </div>
+    </div>
     <script src="./index.js"></script>
 </body>
 

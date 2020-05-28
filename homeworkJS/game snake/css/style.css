@@ -1,0 +1,40 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.game {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    float: left;
+    margin-left: 30vw;
+}
+
+#scores {
+    display: inline-block;
+    margin-left: 10vw;
+    margin-top: 20px;
+    color: cornsilk;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.move {
+    text-align: center;
+}
+
+.move span {
+    display: inline-block;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 10px 10px;
+    background-color: blanchedalmond;
+}
+
+.move span:hover {
+    cursor: pointer;
+}

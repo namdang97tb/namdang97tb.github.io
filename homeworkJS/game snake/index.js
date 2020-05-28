@@ -126,7 +126,7 @@ function stop() {
 }
 
 function start() {
-    game = setInterval(draw, 200)
+    game = setInterval(draw, 300)
 }
 
 function newGame() {
@@ -173,6 +173,27 @@ let keyDown = (event) => {
     }
 }
 window.addEventListener("keydown", keyDown)
+
+//onclick
+function clickUp() {
+    if (key != "down")
+        key = "up"
+}
+
+function clickDown() {
+    if (key != "up")
+        key = "down"
+}
+
+function clickLeft() {
+    if (key != "right")
+        key = "left"
+}
+
+function clickRight() {
+    if (key != "left")
+        key = "right"
+}
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1))
