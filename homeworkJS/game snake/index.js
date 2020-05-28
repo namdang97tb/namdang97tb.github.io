@@ -115,7 +115,7 @@ function draw() {
 
 }
 
-let game = setInterval(draw, 50)
+let game = setInterval(draw, 100)
 
 window.onload = () => {
     game
@@ -126,7 +126,7 @@ function stop() {
 }
 
 function start() {
-    game = setInterval(draw, 300)
+    game = setInterval(draw, 100)
 }
 
 function newGame() {
